@@ -77,13 +77,11 @@ Asignacion i2cAddress port: 0x55
 
 
 ## Configuring I2C on Arduino Nano
-SDA -> A4
-SCL -> A5
+SDA -> A4 <br>
+SCL -> A5 <br>
 GND
 
-Asignacion i2cAddress port: 0x8
-
-nota: se necesita un convertidor de nivel lógico bidireccional  3.3V <-> 5V TTL
+> :warning: **Warning:** se necesita un convertidor de nivel lógico bidireccional  3.3V <-> 5V TTL
 
 
 ## Configuring I2C on the Raspberry Pi

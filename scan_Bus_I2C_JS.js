@@ -1,3 +1,14 @@
+/** 
+ * @fileoverview Scan bus i2C RPi
+ * @version  1.0
+ * @author  carjavi <carjavi@hotmail.com>
+ * @license copyright www.instintodigital.net, sep 2023 
+ * @Library
+ * @Commands
+ * @see 
+ * @Note 
+**/
+
 const i2c = require('i2c-bus');
 
 const i2c1 = i2c.openSync(1); // Abre el bus I2C 1 (puede ser 0 o 1 en Raspberry Pi)
